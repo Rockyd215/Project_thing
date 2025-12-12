@@ -78,7 +78,7 @@ export function Chatbot() {
   const messages = mode === 'chat' ? chatMessages : imageMessages
 
   return (
-    <div className="h-[800px] w-full min-w-[300px] max-w-3xl mx-auto">
+    <div className="h-[800px] w-full min-w-[600px] max-w-3xl mx-auto">
       <div className="flex flex-col h-full ">
 
         {/* Mode Toggle */}
